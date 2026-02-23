@@ -96,7 +96,7 @@ movie_genre_prediction/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/movie-genre-classification.git
+git clone https://github.com/deathsamsul/MYDAILYWORK.git
 cd movie-genre-classification
 
 python -m venv genre

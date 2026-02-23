@@ -1,0 +1,28 @@
+deberta_movie_genre_model_gpu_v1
+movie_genre_prediction/TFID_vector/movie_genre_classifier.pkl
+movie_genre_prediction/TFID_vector/label_encoder.pkl
+genre
+
+# Ignore virtual environments
+genre/
+venv/
+env/
+
+# Ignore model folders (large files)
+deberta_movie_genre_model_gpu_v1/
+movie_genre_prediction/distilbart/deberta_movie_genre_model_gpu_v1/
+
+# Ignore TF-IDF model files
+movie_genre_prediction/TFID_vector/movie_genre_classifier.pkl
+movie_genre_prediction/TFID_vector/label_encoder.pkl
+
+# Ignore pycache
+__pycache__/
+*.pyc
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore system files
+.DS_Store
+Thumbs.db

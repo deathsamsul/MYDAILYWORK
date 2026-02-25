@@ -167,14 +167,16 @@ if st.button("Predict Genre"):
         st.success(f"Top Predicted Genre: **{top_genre['Genre']}**")
         st.info(f"Confidence: {top_genre['Probability']*100:.2f}%")
 
+        st.subheader("Probability Distribution")
+        st.bar_chart(results_df.set_index("Genre"))
+
         st.subheader("Top 3 Genre Predictions")
         st.table(results_df.head(3))
 
         st.subheader("All Genre Probabilities")
         st.dataframe(results_df)
 
-        st.subheader("Probability Distribution")
-        st.bar_chart(results_df.set_index("Genre"))
+       
 
 st.divider()
 
